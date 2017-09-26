@@ -8,6 +8,15 @@ install.packages(c(
                    "leaflet",
                    "rlang",
                    "webshot",
-                   "knitr"
+                   "knitr",
+                   "rio",
+                   "broom",
+                   "lme4",
+                   "regress",
+                   "roxygen2"
                    )
                 )
+
+devtools::install_github("Andersenlab/cegwas")
+devtools::install_github("Andersenlab/COPASutils")
+devtools::install_github("Andersenlab/linkagemapping")
