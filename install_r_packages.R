@@ -2,6 +2,7 @@
 
 # Install CRAN Packages
 install.packages(c(
+                   "cowplot",
                    "devtools",
                    "googlesheets",
                    "geosphere",
