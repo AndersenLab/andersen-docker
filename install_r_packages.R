@@ -50,7 +50,7 @@ install.packages(c(
                    )
                 )
 
-
+# Install devtools packages
 devtools::install_github("Andersenlab/cegwas")
 devtools::install_github("Andersenlab/COPASutils")
 devtools::install_github("Andersenlab/linkagemapping")
